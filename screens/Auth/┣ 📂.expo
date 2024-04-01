@@ -1,0 +1,150 @@
+┣ 📂.expo
+┃ ┣ 📂metro
+┃ ┃ ┣ 📂externals
+┃ ┃ ┃ ┣ 📂assert
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂async_hooks
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂buffer
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂child_process
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂cluster
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂console
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂constants
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂crypto
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂dgram
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂diagnostics_channel
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂dns
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂domain
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂events
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂fs
+┃ ┃ ┃ ┃ ┣ 📂promises
+┃ ┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂http
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂http2
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂https
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂inspector
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂module
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂net
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂os
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂path
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂perf_hooks
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂process
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂punycode
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂querystring
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂readline
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂repl
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂stream
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂string_decoder
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂timers
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂tls
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂trace_events
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂tty
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂url
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂util
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂v8
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂vm
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂wasi
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┣ 📂worker_threads
+┃ ┃ ┃ ┃ ┗ 📜index.js
+┃ ┃ ┃ ┗ 📂zlib
+┃ ┃ ┃   ┗ 📜index.js
+┃ ┃ ┣ 📂shims
+┃ ┃ ┃ ┗ 📂react-native-web
+┃ ┃ ┃   ┗ 📂dist
+┃ ┃ ┃     ┣ 📂cjs
+┃ ┃ ┃     ┃ ┗ 📂exports
+┃ ┃ ┃     ┃   ┣ 📂AppRegistry
+┃ ┃ ┃     ┃   ┃ ┗ 📜AppContainer.js
+┃ ┃ ┃     ┃   ┗ 📂BackHandler
+┃ ┃ ┃     ┃     ┗ 📜index.js
+┃ ┃ ┃     ┗ 📂exports
+┃ ┃ ┃       ┣ 📂AppRegistry
+┃ ┃ ┃       ┃ ┗ 📜AppContainer.js
+┃ ┃ ┃       ┗ 📂BackHandler
+┃ ┃ ┃         ┗ 📜index.js
+┃ ┃ ┣ 📜polyfill.js
+┃ ┃ ┗ 📜polyfill.native.js
+┃ ┣ 📜devices.json
+┃ ┣ 📜packager-info.json
+┃ ┣ 📜README.md
+┃ ┗ 📜settings.json
+┣ 📂assets
+┃ ┣ 📜adaptive-icon.png
+┃ ┣ 📜avatar1.jpg
+┃ ┣ 📜avatar2.jpg
+┃ ┣ 📜avatar3.jpg
+┃ ┣ 📜avatar4.jpg
+┃ ┣ 📜favicon.png
+┃ ┣ 📜icon.png
+┃ ┣ 📜ill1.png
+┃ ┣ 📜logo.png
+┃ ┣ 📜logo1.png
+┃ ┗ 📜splash.png
+┣ 📂components
+┃ ┣ 📜Avatar.js
+┃ ┣ 📜Button.js
+┃ ┣ 📜Input.js
+┃ ┣ 📜MatchedProfilesList.js
+┃ ┣ 📜MatchItem.js
+┃ ┣ 📜MatchList.js
+┃ ┣ 📜Message.js
+┃ ┣ 📜ProfileItem.js
+┃ ┗ 📜UserProfile.js
+┣ 📂helper
+┃ ┗ 📜Logo.js
+┣ 📂navigation
+┃ ┗ 📜AppNavigator.js
+┣ 📂screens
+┃ ┣ 📂Auth
+┃ ┃ ┣ 📜GoogleLoginScreen.js
+┃ ┃ ┣ 📜LoginScreen.js
+┃ ┃ ┗ 📜RegisterScreen.js
+┃ ┗ 📂Main
+┃   ┣ 📜┣ 📂.expo
+┃   ┣ 📜ChatScreen.js
+┃   ┣ 📜EditProfileScreen.js
+┃   ┣ 📜HomeScreen.js
+┃   ┣ 📜MatchesScreen.js
+┃   ┗ 📜ProfileScreen.js
+┣ 📜.gitignore
+┣ 📜App.js
+┣ 📜babel.config.js
+┣ 📜package.json
+┗ 📜yarn.lock
