@@ -8,7 +8,7 @@ const connectDB = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       // Replace useCreateIndex with createIndexes
-      createIndexes: true,
+     
     });
     console.log(colors.green("Connected to MongoDB"));
   } catch (err) {
