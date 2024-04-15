@@ -1,13 +1,23 @@
-// routes/userRoutes.js
-import express from 'express';
-import { createUser, getAllUsers, loginUser } from '../controllers/userController.js';
-import authenticateToken from '../middleware/authMiddleware.js';
+const express = require("express");
+const {
+  registerController,
+  loginController,
+  updateUserController,
+  requireSingIn,
+} = require("../controllers/userController");
 
+//riouter object
+const router = express.Router();
 
-const userRouter = express.Router();
+//routes
+// REGISTER || POST
+router.post("/register", registerController);
 
-userRouter.route('/user').post(createUser);
-userRouter.route('/getAllUsers').get(authenticateToken, getAllUsers);
-userRouter.route('/loginUser').post( loginUser);
+// LOGIN || POST
+router.post("/login", loginController);
 
-export default userRouter;
+//UPDATE || PUT
+router.put("/update-user", requireSingIn, updateUserController);
+
+//export
+module.exports = router;

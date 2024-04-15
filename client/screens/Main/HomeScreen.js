@@ -11,10 +11,11 @@ function HomeScreen() {
   return (
     <Tab.Navigator
       initialRouteName="Chat"
-      // tabBarOptions={{
-      //   activeTintColor: 'blue',
-      //   inactiveTintColor: 'gray',
-      // }}
+      screenOptions={{
+        tabBarActiveTintColor: 'white', // Color of the active tab text
+        tabBarInactiveTintColor: 'white', // Color of the inactive tab text
+        tabBarStyle: { backgroundColor: 'black' }, // Background color of the navigation tab
+      }}
     >
       <Tab.Screen
         name="Chat"

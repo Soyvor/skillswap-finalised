@@ -13,13 +13,15 @@ import ProfileScreen from '../screens/Main/ProfileScreen';
 import EditProfileScreen from '../screens/Main/EditProfileScreen';
 import ChatScreen from '../screens/Main/ChatScreen';
 import OnboardingScreen from '../screens/Auth/OnboardingScreen';
+import Splash from '../screens/Splash/splash';
 
 const Stack = createStackNavigator();
 
 const AppNavigator = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='Entry' screenOptions={{headerShown: false}}>
+      <Stack.Navigator initialRouteName='splash' screenOptions={{headerShown: false}}>
+        <Stack.Screen name='splash' component={Splash} />
         <Stack.Screen name="Entry" component={OnboardingScreen} />
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="Register" component={RegisterScreen} />

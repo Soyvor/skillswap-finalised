@@ -1,3 +1,4 @@
+
 const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
@@ -8,12 +9,9 @@ const connectDB = require("./config/db");
 //DOTENV
 dotenv.config();
 
-// Use MONGO_URI in your application
-const MONGO_URI = process.env.MONGO_URI;
-
-//DATABASE CONNECTION
-connectDB(MONGO_URI);
-
+// MONGODB CONNECTION
+const MONGODB_URI = "mongodb+srv://mak:HI.thisis12@cluster01.dbjcjye.mongodb.net/skillswap";
+connectDB();
 //REST OBJECT
 const app = express();
 
@@ -23,12 +21,8 @@ app.use(express.json());
 app.use(morgan("dev"));
 
 //ROUTES
-app.get("", (req, res) => {
-    res.status(200).json({
-        success: true,
-        message: "API is running",
-    });
-} );
+app.use("/api/v1/auth", require("./routes/userRoutes"));
+app.use("/api/v1/post", require("./routes/postRoutes"));
 
 //PORT
 const PORT = process.env.PORT || 8080;
