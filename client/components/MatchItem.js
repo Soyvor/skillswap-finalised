@@ -1,16 +1,19 @@
 // MatchItem.js
 
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity,Linking } from 'react-native';
 import Avatar from './Avatar';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 const MatchItem = ({ match, onPress }) => {
   return (
     <TouchableOpacity style={styles.container} onPress={onPress}>
-      <Avatar source={match.avatar} size={50} />
+      <Icon name="person" size={50} color="#000" />
       <View style={styles.info}>
         <Text style={styles.name}>{match.name}</Text>
-        <Text style={styles.bio}>{match.bio}</Text>
+        <TouchableOpacity onPress={() => Linking.openURL(match.linkedin)}>
+                     <Text style={[styles.text, { fontWeight: "200", fontSize: 20 }]}>{match.linkedin}</Text>           
+                    </TouchableOpacity>
       </View>
     </TouchableOpacity>
   );

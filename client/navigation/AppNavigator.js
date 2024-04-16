@@ -14,6 +14,8 @@ import EditProfileScreen from '../screens/Main/EditProfileScreen';
 import ChatScreen from '../screens/Main/ChatScreen';
 import OnboardingScreen from '../screens/Auth/OnboardingScreen';
 import Splash from '../screens/Splash/splash';
+import RS2 from '../screens/Auth/RS2';
+import RS3 from '../screens/Auth/RS3';
 
 const Stack = createStackNavigator();
 
@@ -26,10 +28,12 @@ const AppNavigator = () => {
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="Register" component={RegisterScreen} />
         <Stack.Screen name="GoogleLogin" component={GoogleLoginScreen} />
+        <Stack.Screen name="Next" component={RS2} />
         <Stack.Screen name="Skillswap" component={HomeScreen} />
         <Stack.Screen name="Matches" component={MatchesScreen} />
         <Stack.Screen name="Profile" component={ProfileScreen} />
         <Stack.Screen name="EditProfile" component={EditProfileScreen} />
+        <Stack.Screen name="Next2" component={RS3} />
         <Stack.Screen name="Chat" component={ChatScreen} />
       </Stack.Navigator>
     </NavigationContainer>

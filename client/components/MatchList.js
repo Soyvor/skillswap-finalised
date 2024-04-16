@@ -9,9 +9,9 @@ const MatchList = ({ matches, onPressMatch }) => {
     <FlatList
       data={matches}
       renderItem={({ item }) => (
-        <MatchItem match={item} onPress={() => onPressMatch(item.id)} />
+        <MatchItem match={item} onPress={() => onPressMatch(item._id)} />
       )}
-      keyExtractor={(item) => item.id.toString()}
+      keyExtractor={(item) => item._id}
     />
   );
 };
