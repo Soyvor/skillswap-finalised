@@ -51,6 +51,11 @@ To start the application, run the following command:
  npm start
 ```
 
+Open a nw terminal for backend 
+```bash
+cd server
+ npm start
+```
 ## Configuration
 The application can be configured using a JSON file. The following is an example configuration file
 
